@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dear Ate Ganda😍❤️</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="laptop">💻</div>
+
+        <h1>Dear Ate Ganda😍❤️</h1>
+
+        <h2>I Have a Small Request...</h2>
+
+        <p>
+            Can you please buy me a laptop? 🥺💻
+        </p>
+
+        <div class="reasons">
+            <h3>Why I Need One:</h3>
+
+            <p>📚 For my school activities</p>
+            <p>💻 For programming</p>
+            <p>📝 For my assignments</p>
+            <p>🎓 For my studies</p>
+        </div>
+
+        <p class="promise">
+            I promise I'll take good care of it! 😇❤️
+        </p>
+
+        <button onclick="yesAnswer()" class="yes">
+            💰 YES, I'LL BUY IT!
+        </button>
+
+        <button onclick="noAnswer()" class="no">
+            ❌ NO
+        </button>
+
+        <div id="message"></div>
+
+    </div>
+
+    <script>
+        function yesAnswer() {
+            document.getElementById("message").innerHTML =
+            "😭❤️ THANK YOU, ATE! YOU'RE THE BEST! 💻🎉";
+        }
+
+        function noAnswer() {
+            document.getElementById("message").innerHTML =
+            "🥺 Please reconsider, Ate... maawa ka😭😭! 💻📚";
+        }
+    </script>
+
+</body>
+</html>
+```
